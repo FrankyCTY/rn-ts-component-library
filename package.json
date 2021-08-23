@@ -20,6 +20,7 @@
     }
   },
   "dependencies": {
+    "@iconscout/react-native-unicons": "^1.0.3",
     "metro-config": "^0.66.2",
     "react": "17.0.1",
     "react-native": "0.64.1",

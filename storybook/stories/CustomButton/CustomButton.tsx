@@ -1,6 +1,7 @@
 import React from 'react';
 import {TouchableHighlight} from 'react-native';
-import FontAwesome from 'react-native-vector-icons/FontAwesome';
+// import FontAwesome from 'react-native-vector-icons/FontAwesome';
+import UilReact from '@iconscout/react-native-unicons/icons/uil-react';
 // import Svg, {Path, Line, Polyline} from 'react-native-svg';
 
 interface Props {
@@ -11,7 +12,8 @@ interface Props {
 export const CustomButton = (props: Props) => {
   return (
     <TouchableHighlight onPress={props.onPress}>
-      <FontAwesome name="deafness" size={50} />
+      {/* <FontAwesome name="deafness" size={50} /> */}
+      <UilReact size="40" color="#61DAFB" />
       {/* <Svg
         height="100"
         width="100"
